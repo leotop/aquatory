@@ -1,0 +1,10 @@
+<?
+$PERM["desktop_app"]["*"]="D";
+$PERM["personal"]["7"]="W";
+$PERM["magazin"]["7"]="W";
+$PERM["news"]["7"]="W";
+$PERM["o-nas"]["7"]="W";
+$PERM["index.php"]["7"]="W";
+$PERM["/"]["8"]="W";
+$PERM["/"]["*"]="R";
+?>

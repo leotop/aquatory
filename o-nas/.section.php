@@ -1,0 +1,4 @@
+<?
+$sSectionName = "Всё о Juwel";
+
+?>

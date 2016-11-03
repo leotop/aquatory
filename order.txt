@@ -1,0 +1,154 @@
+2015-11-26 10:25:03 - $arResult["CUSTOM_DELIVERY_SERVICES"] = Array
+(
+    [4095] => Array
+        (
+            [ID] => 4095
+            [NAME] => Доставка по Москве в пределах МКАД
+            [PRICE] => 950.00
+            [TYPE_ID] => 28
+            [TYPE_XML_ID] => DELIVERY_MSK
+            [BASE_DELIVERY_ID] => 
+        )
+
+    [4103] => Array
+        (
+            [ID] => 4103
+            [NAME] => Доставка по Москве до транспортной компании
+            [PRICE] => 950.00
+            [TYPE_ID] => 26
+            [TYPE_XML_ID] => DELIVERY_TK
+            [BASE_DELIVERY_ID] => 
+        )
+
+    [4131] => Array
+        (
+            [ID] => 4131
+            [NAME] => Доставка за МКАД (950 р. + 100 р./км от МКАД)
+            [PRICE] => 100.00
+            [TYPE_ID] => 27
+            [TYPE_XML_ID] => DELIVERY_MO
+            [BASE_DELIVERY_ID] => 4095
+        )
+
+)
+
+2015-11-26 10:25:03 - $arUserResult["CUSTOM_DELIVERY_ID"] = 4131
+2015-11-26 10:25:03 - $delivery_available = 1
+2015-11-26 10:25:03 - $delivery_service = Array
+(
+    [ID] => 4131
+    [NAME] => Доставка за МКАД (950 р. + 100 р./км от МКАД)
+    [PRICE] => 100.00
+    [TYPE_ID] => 27
+    [TYPE_XML_ID] => DELIVERY_MO
+    [BASE_DELIVERY_ID] => 4095
+)
+
+2015-11-26 10:25:03 - $distance_prop = Array
+(
+    [ID] => 29
+    [PERSON_TYPE_ID] => 3
+    [NAME] => Расстояние (км.)
+    [TYPE] => TEXT
+    [REQUIED] => N
+    [DEFAULT_VALUE] => 10
+    [SORT] => 550
+    [USER_PROPS] => N
+    [IS_LOCATION] => N
+    [PROPS_GROUP_ID] => 6
+    [SIZE1] => 0
+    [SIZE2] => 0
+    [DESCRIPTION] => 
+    [IS_EMAIL] => N
+    [IS_PROFILE_NAME] => N
+    [IS_PAYER] => N
+    [IS_LOCATION4TAX] => N
+    [IS_ZIP] => N
+    [CODE] => DISTANCE
+    [IS_FILTERED] => N
+    [ACTIVE] => Y
+    [UTIL] => N
+    [INPUT_FIELD_LOCATION] => 0
+    [MULTIPLE] => N
+    [PAYSYSTEM_ID] => 
+    [DELIVERY_ID] => 
+)
+
+2015-11-26 10:25:03 - $delivery_basket_item_id = 1748
+2015-11-26 10:25:03 - $delivery_basket_item = Array
+(
+    [ID] => 1748
+    [FUSER_ID] => 26284
+    [ORDER_ID] => 
+    [PRODUCT_ID] => 4131
+    [PRODUCT_PRICE_ID] => 5004
+    [PRICE] => 100.00
+    [CURRENCY] => RUB
+    [DATE_INSERT] => 2015-11-26 10:25:03
+    [DATE_UPDATE] => 2015-11-26 10:25:03
+    [WEIGHT] => 0.00
+    [QUANTITY] => 3500.00
+    [LID] => s1
+    [DELAY] => N
+    [NAME] => Доставка за МКАД (за 1 км)
+    [CAN_BUY] => Y
+    [MODULE] => catalog
+    [CALLBACK_FUNC] => 
+    [NOTES] => Розничная цена
+    [ORDER_CALLBACK_FUNC] => 
+    [DETAIL_PAGE_URL] => 
+    [DISCOUNT_PRICE] => 0.00
+    [CANCEL_CALLBACK_FUNC] => 
+    [PAY_CALLBACK_FUNC] => 
+    [PRODUCT_PROVIDER_CLASS] => CCatalogProductProvider
+    [CATALOG_XML_ID] => 
+    [PRODUCT_XML_ID] => 83405d8f-c3d3-11e3-a474-e89d87d2e427
+    [DISCOUNT_NAME] => 
+    [DISCOUNT_VALUE] => 
+    [DISCOUNT_COUPON] => 
+    [VAT_RATE] => 0.00
+    [SUBSCRIBE] => N
+    [DEDUCTED] => N
+    [RESERVED] => N
+    [BARCODE_MULTI] => N
+    [RESERVE_QUANTITY] => 
+    [CUSTOM_PRICE] => N
+    [DIMENSIONS] => a:3:{s:5:"WIDTH";s:1:"0";s:6:"HEIGHT";s:1:"0";s:6:"LENGTH";s:1:"0";}
+    [TYPE] => 
+    [SET_PARENT_ID] => 
+    [MEASURE_CODE] => 796
+    [MEASURE_NAME] => шт
+    [RECOMMENDATION] => 
+)
+
+2015-11-26 10:25:03 - $delivery_service["BASE_DELIVERY_ID"] = 4095
+2015-11-26 10:25:03 - $distance_prop = Array
+(
+    [ID] => 29
+    [PERSON_TYPE_ID] => 3
+    [NAME] => Расстояние (км.)
+    [TYPE] => TEXT
+    [REQUIED] => N
+    [DEFAULT_VALUE] => 10
+    [SORT] => 550
+    [USER_PROPS] => N
+    [IS_LOCATION] => N
+    [PROPS_GROUP_ID] => 6
+    [SIZE1] => 0
+    [SIZE2] => 0
+    [DESCRIPTION] => 
+    [IS_EMAIL] => N
+    [IS_PROFILE_NAME] => N
+    [IS_PAYER] => N
+    [IS_LOCATION4TAX] => N
+    [IS_ZIP] => N
+    [CODE] => DISTANCE
+    [IS_FILTERED] => N
+    [ACTIVE] => Y
+    [UTIL] => N
+    [INPUT_FIELD_LOCATION] => 0
+    [MULTIPLE] => N
+    [PAYSYSTEM_ID] => 
+    [DELIVERY_ID] => 
+)
+
